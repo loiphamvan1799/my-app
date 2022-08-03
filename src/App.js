@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './components/Welcome'
 import Welcome2 from './components/Welcome2'
 import Clothes from "./components/Clothes"; //Import component vào
+import ExampleState from './components/ExampleState'
 
 function App() {
  
@@ -24,10 +25,13 @@ function App() {
           Learn React
         </a>
       </header>
-      <div>
+    <div>
       <Clothes name="Quần jean" type="Skinny" color ="Đen" size = "L">Clothes 1</Clothes>
       <Clothes name="Váy" type="váy công chúa" color ="Trắng" size = "M">Clothes 2</Clothes>
     </div>
+
+    // Example State 
+    <ExampleState />
     </div>
   );
 }
