@@ -4,6 +4,7 @@ import Welcome from './components/Welcome'
 import Welcome2 from './components/Welcome2'
 import Clothes from "./components/Clothes"; //Import component vào
 import ExampleState from './components/ExampleState'
+import PropsValidationExample from './components/PropsValidationExample'
 
 function App() {
  
@@ -12,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Welcome />
-        <Welcome2 />sdsa
+        <Welcome2 />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -32,6 +33,9 @@ function App() {
 
     // Example State 
     <ExampleState />
+
+    // PropsValiationExample case validate true
+    <PropsValidationExample />
     </div>
   );
 }
