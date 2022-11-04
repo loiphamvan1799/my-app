@@ -5,6 +5,10 @@ import Welcome2 from './components/Welcome2'
 import Clothes from "./components/Clothes"; //Import component vào
 import ExampleState from './components/ExampleState'
 import PropsValidationExample from './components/PropsValidationExample'
+import ExampleStateAPIV2 from './components/ExampleStateAPIV2'
+import EventHandler from './components/EventHandler';
+import LoginComponent from './components/LoginComponent';
+import NotificationComponent from './components/NotificationComponent';
 
 function App() {
  
@@ -36,6 +40,19 @@ function App() {
 
     // PropsValiationExample case validate true
     <PropsValidationExample />
+
+    // Example about state api
+    <ExampleStateAPIV2 />
+
+    //Example Event Handling
+    <EventHandler />
+
+    //Example handling form
+    <LoginComponent />
+
+    //Example about render with condition
+    <NotificationComponent />
+
     </div>
   );
 }
