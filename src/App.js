@@ -9,6 +9,9 @@ import ExampleStateAPIV2 from './components/ExampleStateAPIV2'
 import EventHandler from './components/EventHandler';
 import LoginComponent from './components/LoginComponent';
 import NotificationComponent from './components/NotificationComponent';
+import ListComponent from './components/ExampleLists';
+import CurrencyExchange from './components/CurrencyExchange';
+
 
 function App() {
  
@@ -52,6 +55,12 @@ function App() {
 
     //Example about render with condition
     <NotificationComponent />
+
+    //Example about Lists
+    <ListComponent />
+
+    //Example about Lifting state up
+    <CurrencyExchange />
 
     </div>
   );
